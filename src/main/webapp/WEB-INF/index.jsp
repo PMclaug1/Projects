@@ -13,7 +13,7 @@
 
 <h1>Project Manager</h1>
 <p>A place for teams to manage projects.</p>
-
+<!--  log in -->
 <form:form action="/register" method="post" modelAttribute="newUser">
 
 	<table>
