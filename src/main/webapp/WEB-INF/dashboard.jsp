@@ -28,6 +28,7 @@
     		<th>Actions</th>
     	</tr>
     </thead>
+    <!-- unassigned -->
     <tbody>
     	<c:forEach var="project" items="${unassignedProjects}">
 		<tr>
@@ -53,6 +54,7 @@
     		<th>Actions</th>
     	</tr>
     </thead>
+  <!-- assigned -->
     <tbody>
     	<c:forEach var="project" items="${assignedProjects}">
 		<tr>
